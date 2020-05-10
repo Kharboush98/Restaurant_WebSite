@@ -1,0 +1,86 @@
+html{
+  overflow-y: scroll;
+}
+body
+{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background-image: url(cover.jpeg);
+	background-size:cover;
+	background-position:center;
+}
+
+
+.map{
+  color: #fff;
+  background-color:white;
+  width: 400px;
+  height: 800px;
+  position: absolute;
+  display: inherit;
+  top:15%;
+  left:35%;
+  bottom:0%;
+  right: 0%;
+  box-shadow: 0 27px 87px rgba(0,0,0,0.37);
+  border-radius: 10px;
+  overflow: hidden; 
+  text-align: center;
+}
+
+
+input[type="radio"]{
+    -webkit-appearance:none;
+}
+label{
+  cursor: pointer;
+  display: inline-block;
+  width: 60px;
+  height: 55px;
+  background: white;
+  margin: 25px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: black;
+  transition: 0.5s;
+  position: relative;
+}
+label img{
+  line-height: 100px;
+  font-size: 29px;
+  transition: 0.2s linear;}
+label:hover img{
+  transform: scale(1.1);
+  color: black;
+}
+
+label:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+input[type="radio"]:checked+label{
+    background-color:lightgray;
+}
+
+
+.la{
+display: inline-block;
+  color: black;
+    font-family: "Playfair Display", serif;
+}
+
+.reserve{
+    margin: 10px;
+    background: #FDA403;
+    border-color: #FDA403;
+    font-size: 16px ;
+    padding: 13px 40px ;
+    font-family: "Playfair Display", serif;
+    cursor: pointer;
+    width: 90%;
+    color: white;
+    border: 1px solid transparent;
+    
+}

@@ -1,0 +1,35 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+  }
+
+  #sidebar{
+   position: fixed;
+   width: 200px;
+   height: 100%;
+   background: #151719;
+  }
+  
+  #sidebar ul li{
+   color: #f5f2d0;
+   list-style: none;
+   padding: 15px 10px;
+   border-bottom: 1px solid rgba(100,100,100,0.3);
+   cursor: pointer;
+  }
+
+  a{
+    color: #f5f2d0;
+    text-decoration: none;
+  }
+h2{
+    color: #f5f2d0;
+    text-align: center;
+    margin-top: 10px;
+}
+ .mainpage{
+  margin-left: 200px;
+  color: black;
+  line-height: 25px;
+}
